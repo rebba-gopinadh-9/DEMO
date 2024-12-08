@@ -25,7 +25,7 @@ public class SecurityConfig implements WebMvcConfigurer {
 
         FilterRegistrationBean<JwtFilter> registrationBean = new FilterRegistrationBean<>();
         registrationBean.setFilter(jwtFilter);
-        registrationBean.setUrlPatterns(Arrays.asList("/products", "/home","/products-page"));  // Protected endpoints
+        registrationBean.setUrlPatterns(Arrays.asList("/products", "/home","/products-page","/videos/sample","/video"));  // Protected endpoints
         return registrationBean;
     }
 }

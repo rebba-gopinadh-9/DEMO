@@ -1,3 +1,3 @@
 function showAlert() {
-			window.location.href = '/products-page';
+			window.location.href = '/video';
 		}

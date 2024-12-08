@@ -33,4 +33,9 @@ public class HomeController {
         // Add attributes to the model that can be used in the view
         return "products";  // This corresponds to home.html (Thymeleaf template)
     }
+    @GetMapping("/video")
+    public String videoPage() {
+        // Add attributes to the model that can be used in the view
+        return "video";  // This corresponds to home.html (Thymeleaf template)
+    }
 }
